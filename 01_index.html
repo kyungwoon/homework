@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Jua', sans-serif;
+        }
+
+        .wrap {
+            width: 500px;
+            margin: 0px auto 30px auto;
+        }
+
+        .mytitle {
+            width: 500px;
+            height: 200px;
+            margin: 40px auto 40px auto;
+
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIT317Ynx643z2vuDPZak4D6FJ2ndAoMZYSw&usqp=CAU");
+            background-size: cover;
+            background-position: center;
+
+        }
+        .input {
+            margin-bottom: 20px;
+        }
+        .btn {
+            width: 100px;
+            margin: auto;
+            display: block;
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+<div class="wrap">
+    <div class="mytitle">
+    </div>
+
+    <div class = "input">
+        <h2>키보드를 팝니다.<span style=font-size:large>  가격: 30,000원 / 개</span></h2>
+        이 상품은 오랜 사용을 하여도 손목에 무리를 주지 않으며 화려한 LED조명과 무소음 키보드이다.
+    </div>
+
+    <div class="col-auto">
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text">주문자 이름</div>
+            </div>
+            <input type="text" class="form-control">
+        </div>
+        </div>
+    <div class="col-auto">
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text">수량</div>
+            </div>
+             <select class="custom-select my-0 mr-sm-0" >
+                <option selected> -- 수량을 선택하세요 --</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+
+        </div>
+        </div>
+    <div class="col-auto">
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text">주소</div>
+            </div>
+            <input type="text" class="form-control">
+        </div>
+        </div>
+    <div class="col-auto">
+        <div class="input-group mb-2">
+            <div class="input-group-prepend">
+                <div class="input-group-text">전화번호</div>
+            </div>
+            <input type="text" class="form-control">
+        </div>
+        </div>
+
+
+</div>
+
+    <button type="submit" class="btn btn-primary">기사저장</button>
+</body>
+
+</html>
